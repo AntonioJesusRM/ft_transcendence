@@ -19,16 +19,28 @@ To run this project, you will need the following software installed on your mach
 1. **Clone the repository:**
 
    ```bash
-   git clone https://github.com/fmanzanare/ft_trascendence.git
+   git clone https://github.com/AntonioJesusRM/ft_transcendence.git
    ```
 
 2. **Navigate to the project directory:**
 
    ```bash
-   cd ft_trascendence
+   cd ft_transcendence
    ```
 
-3. **Run the Project:**
+3. **Create .env**
+
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Complete env**
+
+   ```bash
+   vim .env
+   ```
+
+5. **Run the Project:**
 
    ```bash
    make
